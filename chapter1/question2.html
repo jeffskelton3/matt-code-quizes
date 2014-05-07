@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>        
+    <title>Question 1</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Question 2</h1>
+        <p>Copy the code that you wrote for question 1 to a new file and link to it on this page right before the closing body tag. Be sure to add it AFTER the jQuery script tag. Using that code as a starting point, extend the functionality of your program by making the following enhancements:</p>
+        <ol>
+            <li>Instead of using JavaScript alerts, display the results of the roll in html on the page
+                <ol>
+                    <li>Create an empty div on the page and give it an id of <strong>roll_result</strong>. We are going to be using the bootstrap CSS library for all of these examples. Notice the link tag in the head for it. With that in mind, give it a class of <strong>alert</strong>. This div should not display until <em>after</em> we roll so give it a class of <strong>hidden</strong> as well</li>
+                    <li>Take the messages from the previous example and insert them into your newly created roll_result div.</li>
+                    <li>Show the div (it was hidden remember?)</li>
+                    <li>If the result is too high or too low, add a class of alert-danger. If the numbers match, add a class of alert-success.</li>
+                    <li>Hide roll_result after 5 seconds. Remove the classes alert-danger and alert-success from it.</li>
+                </ol>
+            </li>  
+            
+        </ol>
+
+
+        <!-----------------------THE HTML FOR THE QUIZ------------------>
+
+        <input type="number" 
+        min="1"
+        max="24"
+        class="col-xs-2"           
+        id="my_bet" 
+        placeholder="my bet">      
+
+        <button id="roll_dice_button" class="btn btn-info btn-xs" type="button">roll the dice!!</button>    
+    </div>
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+</body>
+</html>

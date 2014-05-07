@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>        
+    <title>Question 1</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Question 1</h1>
+        <p>using the html provided below, write a dice rolling program that does the following:</p>
+        <ol>
+            <li>Generates a random number between 1 and 24 when #roll_dice_button is clicked</li>  
+            <li>Compares the generated random number with the value of #my_bet
+                <ul>
+                    <li>if the value of #my_bet is blank fire an alert saying "value of input cannot be blank". The program should NOT run any further.</li>
+                    <li>If the value of #my_bet is less than the the number generated randomly, alert "sorry you guessed too high"</li>
+                    <li>If the value of #my_bet is greater than the number generated randomly, alert "sorry you guessed to little"</li>
+                    <li>If the value of #my_bet is equal to the number generated randomly, alert "congratulations!! You win!!"</li>
+                </ul>
+            </li>        
+        </ol>
+
+
+        <!-----------------------THE HTML FOR THE QUIZ------------------>
+
+        <input type="number" 
+        min="1"
+        max="24"
+        class="col-xs-2"           
+        id="my_bet" 
+        placeholder="my bet">      
+
+        <button id="roll_dice_button" class="btn btn-info btn-xs" type="button">roll the dice!!</button>
+    </div>
+    
+    
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+</body>
+</html>
