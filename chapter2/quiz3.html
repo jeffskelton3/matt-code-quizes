@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decisions and Logic Flow</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Decisions, Logic, and Loops</h1>
+
+        <p>The real magic of JavaScript/jQuery comes when you start taking user input/interaction with your web page, make decisions based upon that input, and then display feedback back to the user. The following exercises are intended to drive that point home.</p>
+
+        <p>1) Take text entered from the input box in #example_1_1 below and display it inside the alert box above it (div.alert) any time the user clicks the button next to it.</p>
+
+        <div id="example_1_1">
+            <div class="alert alert-info">Feedback should go in here</div>
+            <input type="text" placeholder="enter text here" /> <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+
+        <hr/>
+
+        <p>2) Any time the user changes the select value in example_1_2, the new value should display in the alert box above it (div.alert)</p>
+
+        <div id="example_1_2">
+            <div class="alert alert-info">Feedback should go in here</div>
+            <select name="my_select" id="my_select">
+                <option value="" selected="selected">SELECT A VALUE</option>
+                <option value="foo">Foo</option>
+                <option value="bar">Bar</option>
+                <option value="foobar">FooBar</option>
+            </select>
+        </div>
+
+        <hr/>
+
+        <p>3) This is going to be a bit of a challenge: We are going to create a paper, rock, scissors game. In example_1_3 below, anytime the user chooses an option in the select box the game should be triggered. The game should take the choice from the select box (ie the users choice) and compare it to the randomized choice the computer made. Display whether the computer won or the user as well as both choices that were made in the alert box above. IF the computer wins, add a class of alert-danger to the alert box, IF the user wins add a class of alert-success. In both cases, remove the class of alert-info and be sure to remove any other classes that you added during previous turns (ie, you added alert-danger on the last turn so you'll want to remove it for this new turn)</p>
+
+        <div id="example_1_3">
+            <div class="alert alert-info">The results of the game should be displayed here.</div>
+            <select name="users_choice" id="users_choice">
+                <option value="" selected="selected">SELECT A VALUE</option>
+                <option value="paper">Paper</option>
+                <option value="rock">Rock</option>
+                <option value="scissors">Scissors</option>
+            </select>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
