@@ -8,3 +8,5 @@ $("#example_1_2 span").text('replaced!');
 $("#example_1_2").html('<a href="http://google.com">click me to go to Google</a>');
 /* Question 5 answer */
 $('#example_1_3 span').before('<img src="http://9pixs.com/wp-content/uploads/2014/07/chiwawa-puppies_1404253665.jpg">');
+/* Question 6 answer */
+$('#example_1_4').remove(); /* .empty(); */
