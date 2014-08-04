@@ -10,3 +10,6 @@ $("#example_1_2").html('<a href="http://google.com">click me to go to Google</a>
 $('#example_1_3 span').before('<img src="http://9pixs.com/wp-content/uploads/2014/07/chiwawa-puppies_1404253665.jpg">');
 /* Question 6 answer */
 $('#example_1_4').remove(); /* .empty(); */
+/* Question 7 answer */
+ by placing '<script src="/chapter2/scripts/jquery.js"></script>
+<script src="/chapter2/scripts/quiz2.js"></script>' at the bottom of the <body></body> of the HTML doc.
