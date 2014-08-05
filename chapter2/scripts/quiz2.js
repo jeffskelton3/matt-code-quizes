@@ -11,8 +11,9 @@ $('#example_1_3 span').before('<img src="http://9pixs.com/wp-content/uploads/201
 /* Question 6 answer */
 $('#example_1_4').remove(); /* .empty(); */
 /* Question 7 answer */
- by placing '<script src="/chapter2/scripts/jquery.js"></script>
-<script src="/chapter2/scripts/quiz2.js"></script>' at the bottom of the <body></body> of the HTML doc.
+$(document).ready(function() {
+    // put all your jQuery goodness in here.
+});
 /* Question 8 answer */
 var grizzlyDerringer = {
 	members : [Dave, Jason, Matt, Jeff],
