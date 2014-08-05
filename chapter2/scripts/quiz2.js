@@ -13,3 +13,37 @@ $('#example_1_4').remove(); /* .empty(); */
 /* Question 7 answer */
  by placing '<script src="/chapter2/scripts/jquery.js"></script>
 <script src="/chapter2/scripts/quiz2.js"></script>' at the bottom of the <body></body> of the HTML doc.
+/* Question 8 answer */
+var grizzlyDerringer = {
+	members : [Dave, Jason, Matt, Jeff],
+	drums : 'Dave',
+	bass : 'Jason',
+	guitar1 : 'Matt',
+	guitar2 : 'Jeff' 
+	playDrums : function(drums) {
+		alert('Dave plays' + 'drums' + 'in Grizzly Derringer!')
+	}
+}
+
+/* Question 9 answer */
+a function without a name
+an anonymous function can be stored in a variable and called like any function created with a function declaration
+
+$( "li" ).each(function( index ) {
+  console.log( index + ": " + $( this ).text() );
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
