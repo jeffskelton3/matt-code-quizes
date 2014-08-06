@@ -22,8 +22,18 @@ $(document).ready(function() {
 });
 
 /* Question 8 answer */
-
-
+var grizzlyDerringer = {
+	guitar1 : 'Matthew',
+	guitar2 : 'Jeff',
+	bass : 'Jason',
+	drums : 'Dave',
+	city : 'Los Angeles',
+	genre : ['Rock'],
+	members : ['Jason', 'Dave', 'Matthew', 'Jeff'],
+	sayFuckYeah : function() {
+		return('fuck yeah!!!');		
+	}
+}
 
 
 /* Question 9 answer */
